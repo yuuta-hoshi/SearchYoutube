@@ -9,9 +9,12 @@ import SwiftUI
 
 
 struct VideoRowView: View {
-    @State var title: String
+    // タイトル
+    var title: String
+    // 画像URL
     let imgURL: String
-    @State var description: String
+    // 説明
+    var description: String
     
     var body: some View {
         VStack{
