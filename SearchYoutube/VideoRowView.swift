@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct VideoRowView: View {
     // タイトル
     var title: String
