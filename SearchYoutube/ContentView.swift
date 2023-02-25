@@ -10,7 +10,7 @@ import GoogleSignIn
 
 struct ContentView: View {
     @State var results:Results?
-    @State private var keyword = "One Peace"
+    @State private var keyword = "ONE PIECE"
     @ObservedObject var searcher = YoutubeSearcher()
     
     var body: some View {
